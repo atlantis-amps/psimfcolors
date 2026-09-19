@@ -19,7 +19,7 @@ A list with two components:
 decades$colors
 
 # Access specific color
-decades$colors["2030s"]
+decades$colors["2030"]
 
 # Access line types
 decades$linetypes

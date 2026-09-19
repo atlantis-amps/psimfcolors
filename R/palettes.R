@@ -27,14 +27,14 @@ magnitude <- c(
 #' @export
 decades <- list(
   colors = c(
-    "2020s" = "#9970AB",
-    "2030s" = "#00838F",
-    "2040s" = "#AACC00"
+    "2020" = "#9970AB",
+    "2030" = "#00838F",
+    "2040" = "#AACC00"
   ),
   linetypes = c(
-    "2020s" = "solid",
-    "2030s" = "dashed",
-    "2040s" = "dotted"
+    "2020" = "solid",
+    "2030" = "dashed",
+    "2040" = "dotted"
   )
 )
 
