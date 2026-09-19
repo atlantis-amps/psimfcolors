@@ -73,3 +73,18 @@ landcover <- c(
   "High Intensity" = "#7B3F00",
   "Forest" = "#1A5C38"
 )
+
+#' Models Palette
+#'
+#' A 5-color palette for representing different models used in the
+#' Puget Sound Integrated Modeling Framework.
+#'
+#' @format A named character vector of 5 hex colors
+#' @export
+models <- c(
+  "LCCM" = "#4A4A4A",
+  "VELMA" = "#1A7F74",
+  "SSM" = "#C47A1E",
+  "Atlantis" = "#1B5E8A",
+  "QNM" = "#FFFFFF"
+)

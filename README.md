@@ -17,6 +17,7 @@ psimfcolors provides a collection of carefully designed color palettes for visua
 - **decades**: For temporal data with associated line types (3 decades, 2020s-2040s)
 - **basin**: For geographic regions within Puget Sound (10 basins)
 - **landcover**: For different land cover types (6 types)
+- **models**: For different models in the PSIMF (5 models)
 
 ## Usage
 
@@ -92,6 +93,24 @@ ggplot(data, aes(x = longitude, y = latitude, fill = landcover_type)) +
   scale_fill_manual(values = landcover)
 ```
 
+### Models Palette
+
+Use for distinguishing between different PSIMF models:
+
+```r
+# View the models palette
+models
+
+# Access specific model color
+models["VELMA"]
+models["Atlantis"]
+
+# Use with ggplot2
+ggplot(data, aes(x = year, y = value, color = model)) +
+  geom_line() +
+  scale_color_manual(values = models)
+```
+
 ## Palette Details
 
 ### Magnitude
@@ -125,6 +144,13 @@ ggplot(data, aes(x = longitude, y = latitude, fill = landcover_type)) +
 - Med. Intensity: #C86400
 - High Intensity: #7B3F00
 - Forest: #1A5C38
+
+### Models
+- LCCM: #4A4A4A
+- VELMA: #1A7F74
+- SSM: #C47A1E
+- Atlantis: #1B5E8A
+- QNM: #FFFFFF
 
 ## License
 
