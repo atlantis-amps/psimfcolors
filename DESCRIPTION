@@ -1,0 +1,18 @@
+Package: psimfcolors
+Type: Package
+Title: Color Palettes for Puget Sound Integrated Modeling Framework
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Jane", "Doe",
+      email = "jane@example.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: A collection of carefully designed color palettes for the Puget Sound
+    Integrated Modeling Framework (PSIMF). Includes palettes for representing
+    magnitude, temporal decades, geographic basins, and land cover types.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
