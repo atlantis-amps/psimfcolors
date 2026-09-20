@@ -15,4 +15,4 @@ Description: A collection of carefully designed color palettes for the Puget Sou
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.0
+RoxygenNote: 7.3.3
