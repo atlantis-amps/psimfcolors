@@ -27,7 +27,7 @@
 #'
 theme_psimf <- function() {
   ggplot2::theme_minimal() +
-    ggplot2::theme(
+      ggplot2::theme(
       plot.background = ggplot2::element_rect(fill = "white", color = NA),
       panel.background = ggplot2::element_rect(fill = "white", color = NA),
       panel.border = ggplot2::element_rect(color = "black", fill = NA, linewidth = 0.5),
@@ -45,6 +45,7 @@ theme_psimf <- function() {
         color = "black"
       ),
       axis.ticks = ggplot2::element_line(color = "black", linewidth = 0.5),
-      axis.ticks.length = ggplot2::unit(2, "mm")
+      axis.ticks.length = ggplot2::unit(2, "mm"),
+      axis.text.x = ggplot2::element_text(angle = 90, vjust = 0.5, hjust = 1)
     )
 }
