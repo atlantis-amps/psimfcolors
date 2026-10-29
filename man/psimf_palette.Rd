@@ -7,7 +7,7 @@
 psimf_palette(palette, n = NULL)
 }
 \arguments{
-\item{palette}{Character. Name of the palette: "basin", "decades", "magnitude", "landcover", or "models".}
+\item{palette}{Character. Name of the palette: "basin", "decades", "magnitude", "landcover", "models", or "watershed".}
 
 \item{n}{Numeric. Optional number of colors to return. If NULL, returns all available colors.}
 }
@@ -19,6 +19,6 @@ Returns a color palette from the psimfcolors package.
 }
 \examples{
 psimf_palette("basin")
-psimf_palette("decades", n = 3)
+psimf_palette("watershed")
 
 }
