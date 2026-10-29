@@ -88,3 +88,33 @@ models <- c(
   "Atlantis" = "#1B5E8A",
   "QNM" = "#FFFFFF"
 )
+
+#' Watershed Palette
+#'
+#' A 19-color palette for representing different watersheds in the
+#' Puget Sound region.
+#'
+#' @format A named character vector of 19 hex colors
+#' @export
+watershed <- c(
+  "Big Beef" = "#a6cee3",
+  "Deschutes" = "#1f78b4",
+  "Duckabush" = "#b2df8a",
+  "Dungeness" = "#33a02c",
+  "Elwha" = "#fb9a99",
+  "Green" = "#e31a1c",
+  "Hoko" = "#fdbf6f",
+  "Huge" = "#ff7f00",
+  "Issaquah" = "#cab2d6",
+  "Juanita" = "#6a3d9a",
+  "Mercer" = "#ffff99",
+  "Nisqually" = "#b15928",
+  "Nooksack" = "#ffffb3",
+  "Puyallup" = "#8dd3c7",
+  "Quilcene" = "#bebada",
+  "Samish" = "#fb8072",
+  "Skagit" = "#80b1d3",
+  "Skokomish" = "#fdb462",
+  "Snohomish" = "#b3de69",
+  "Stillaguamish" = "#fccde5"
+)

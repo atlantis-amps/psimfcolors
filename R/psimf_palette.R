@@ -2,7 +2,7 @@
 #'
 #' Returns a color palette from the psimfcolors package.
 #'
-#' @param palette Character. Name of the palette: "basin", "decades", "magnitude", "landcover", or "models".
+#' @param palette Character. Name of the palette: "basin", "decades", "magnitude", "landcover", "models", or "watershed".
 #' @param n Numeric. Optional number of colors to return. If NULL, returns all available colors.
 #'
 #' @return A character vector of hex colors.
@@ -11,7 +11,7 @@
 #'
 #' @examples
 #' psimf_palette("basin")
-#' psimf_palette("decades", n = 3)
+#' psimf_palette("watershed")
 #'
 psimf_palette <- function(palette, n = NULL) {
   # List of available palettes
@@ -20,7 +20,8 @@ psimf_palette <- function(palette, n = NULL) {
     decades = decades$colors,
     magnitude = magnitude,
     landcover = landcover,
-    models = models
+    models = models,
+    watershed = watershed
   )
 
   if (!palette %in% names(palettes_list)) {
